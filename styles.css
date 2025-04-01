@@ -5,7 +5,6 @@ h1{
     text-align:left;
     line-height:44px;
 }
-
 h2{
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size:34px;
@@ -21,6 +20,40 @@ code{
     font-family: "Courier New", monospace;
 }
 
+#img1 {
+    width:7%;
+    height: 5%;
+    margin: 16px 16px 16px 16px;
+}
+
+.shapka {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    color: black;
+    line-height:54px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+}
+
 #block1{
     margin: 55px 25%;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
@@ -32,6 +65,16 @@ code{
 
 
 @media (max-width: 800px) {
+    li a {
+        display: initial;
+        color: black;
+        text-align: center;
+        margin: 0;
+        padding: 16px;
+    }
+    .shapka {
+        height: 100px;
+    }
     /* Тут пиши стили для мобилки.
         Стили применятся только когда страничка будет ≤800px шириной
      */
